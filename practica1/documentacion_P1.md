@@ -7,13 +7,13 @@ El primer paso de esta práctica se trata de la instalación de VirtualBox y de 
 #### Conectar ambas máquinas entre ellas
 Para ellos creamos dos adaptadores, uno de tipo NAT y el siguiente de tipo solo-anfitrión. Tenemos que hacer algunos cambios del archivo 50-cloud-init.yaml para conectar ambas máquinas, quedando de la siguiente forma.
 
-![Archivo 50-cloud-init.yaml](/home/maria/Escritorio/OTROS/Github/SWAP/practica1/imagenes/archivo.png)
+![Archivo 50-cloud-init.yaml](https://github.com/mariaalc/SWAP/tree/master/practica1/imagenes/archivo.png)
 
 #### Acceder a otra máquina mediante SSH
 Para ello tenemos que conocer el IP de cada máquina, con ifconfig lo podemos conocer.
 
 **Máquina 1:** cuya IP es 192.168.56.101
-![Máquina1](/home/maria/Escritorio/OTROS/Github/SWAP/practica1/imagenes/maquina1.png)
+![Máquina1](https://github.com/mariaalc/SWAP/tree/master/practica1/imagenes/maquina1.png)
 
 **Máquina 2:** cuya IP es 192.168.56.102
-![Máquina1](/home/maria/Escritorio/OTROS/Github/SWAP/practica1/imagenes/maquina2.png)
+![Máquina1](https://github.com/mariaalc/SWAP/tree/master/practica1/imagenes/maquina2.png)
