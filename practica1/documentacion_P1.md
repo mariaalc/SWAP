@@ -22,7 +22,7 @@ En primer lugar tenemos que conocer el IP de cada máquina, con ifconfig lo pode
 
 Accedemos de una máquina a otra de la siguiente forma: 
 ~~~
-ssh root@IPserver
+ssh root@direccionIPdelservidor
 ~~~
 
 **Acceso desde máquina1 a máquina2** 
@@ -37,7 +37,7 @@ ssh root@IPserver
 cURL es una librería de funciones para conectar con servidores para trabajar con ellos. El trabajo se realiza con formato URL, es decir, sirve para realizar acciones sobre archivos que hay en URLs de Internet, para ello creamos en cada máquina un archivo HTML y vamos a acceder a este entre máquinas.
 Accedemos de una máquina a otra con curl de la siguiente forma: 
 ~~~
-curl http://direccionIPserver/ejemplo.html
+curl http://direccionIPdelservidor/ejemplo.html
 ~~~
 
 **Acceso desde máquina1 a máquina2 con cURL** 
