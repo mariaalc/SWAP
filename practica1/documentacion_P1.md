@@ -16,9 +16,21 @@ En primer lugar tenemos que conocer el IP de cada máquina, con ifconfig lo pode
 ![Máquina1](https://raw.githubusercontent.com/mariaalc/SWAP/master/practica1/imagenes/maquina1.png)
 
 **Máquina 2:** IP es 192.168.56.102
-![Máquina1](https://github.com/mariaalc/SWAP/master/practica1/imagenes/maquina2.png)
+![Máquina2](https://raw.githubusercontent.com/mariaalc/SWAP/master/practica1/imagenes/maquina2.png)
 
-**Acceso a máquina2 desde máquina1** 
-Accedemos de la siguiente forma: ssh root@IPserver
+Accedemos de una máquina a otra de la siguiente forma: ssh root@IPserver
+**Acceso desde máquina1 a máquina2** 
+![m1_a_m2](https://raw.githubusercontent.com/mariaalc/SWAP/master/practica1/imagenes/m1_conectada_a_m2.png)
+**Acceso desde máquina2 a máquina1** 
+![m2_a_m1](https://raw.githubusercontent.com/mariaalc/SWAP/master/practica1/imagenes/m2_conectada_a_m1.png)
+
+#### Acceder de una máquina a otra mediante la herramienta curl
+cURL es una librería de funciones para conectar con servidores para trabajar con ellos. El trabajo se realiza con formato URL, es decir, sirve para realizar acciones sobre archivos que hay en URLs de Internet, para ello creamos en cada máquina un archivo HTML y vamos a acceder a este entre máquinas.
+Accedemos de una máquina a otra con curl de la siguiente forma: curl http://direccionIPserver/ejemplo.html://
+**Acceso desde máquina1 a máquina2 con cURL** 
+![m1_a_m2](https://raw.githubusercontent.com/mariaalc/SWAP/master/practica1/imagenes/m1_a_m2_curl.png)
+**Acceso desde máquina1 a máquina2 con cURL** 
+![m1_a_m2](https://raw.githubusercontent.com/mariaalc/SWAP/master/practica1/imagenes/m2_a_m1_curl.png)
+
 
 
