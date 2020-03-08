@@ -1,5 +1,5 @@
 # Práctica 1
-### Presentación de las prácticas y preparación de las herramientas
+## Presentación de las prácticas y preparación de las herramientas
 
 #### Instalación máquinas virtuales
 El primer paso de esta práctica se trata de la instalación de VirtualBox y de 2 máquinas virtuales, con Ubuntu 18.04 y las características especificadas en el guión (disco duro, memoria…). A continuación configuramos ambas máquinas e instalamos SSH (automáticamente en la instalación) y LAMP manualmente, ambos para disponer de acceso remoto y servidor web
