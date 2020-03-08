@@ -33,17 +33,17 @@ ssh root@direccionIPdelservidor
 
 ![m2_a_m1](https://raw.githubusercontent.com/mariaalc/SWAP/master/practica1/imagenes/m2_conectada_a_m1.png)
 
-#### Acceder de una máquina a otra mediante la herramienta curl
+#### Acceder de una máquina a otra mediante la herramienta cURL
 cURL es una librería de funciones para conectar con servidores para trabajar con ellos. El trabajo se realiza con formato URL, es decir, sirve para realizar acciones sobre archivos que hay en URLs de Internet, para ello creamos en cada máquina un archivo HTML y vamos a acceder a este entre máquinas.
 Accedemos de una máquina a otra con curl de la siguiente forma: 
 ~~~
 curl http://direccionIPdelservidor/ejemplo.html
 ~~~
 
-**Acceso desde máquina1 a máquina2 con cURL** 
+##### Acceso desde máquina1 a máquina2 con cURL
 ![m1_a_m2](https://raw.githubusercontent.com/mariaalc/SWAP/master/practica1/imagenes/m1_a_m2_curl.png)
 
-**Acceso desde máquina1 a máquina2 con cURL** 
+##### Acceso desde máquina1 a máquina2 con cURL
 ![m1_a_m2](https://raw.githubusercontent.com/mariaalc/SWAP/master/practica1/imagenes/m2_a_m1_curl.png)
 
 
