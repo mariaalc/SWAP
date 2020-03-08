@@ -21,8 +21,5 @@ En primer lugar tenemos que conocer el IP de cada máquina, con ifconfig lo pode
 **Acceso a máquina2 desde máquina1** 
 Accedemos de la siguiente forma: ssh root@IPserver
 
-![Máquina1](https://raw.githubusercontent.com/mariaalc/SWAP/tree/master/practica1/imagenes/maquina2.png)
-
-
-
+![Máquina1](https://raw.githubusercontent.com/mariaalc/SWAP/master/practica1/imagenes/maquina2.png)
 
